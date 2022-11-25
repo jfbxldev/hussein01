@@ -1,0 +1,30 @@
+main {
+  min-height: 100vh;
+}
+
+.hero {
+  background: url("../images/landscape01-xs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+}
+
+@media screen and (min-width: 769px) {
+  .hero {
+    background: url("../images/landscape01-lg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+  }
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}

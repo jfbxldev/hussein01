@@ -1,0 +1,58 @@
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300.47 298.93">
+    <defs>
+      <style>
+        .cls-1{letter-spacing:-.02em;}
+        .cls-1,.cls-2{font-family:Roboto-Regular, Roboto;}
+        .cls-3{letter-spacing:.02em;}
+        .cls-4{fill:#3F51B5;}
+        .cls-5{fill:#fff;}.cls-5,.cls-6{font-size:14px;}
+        .cls-7{clip-path:url(#clippath-1);}
+        .cls-6{fill:#e6e6e6;font-family:Roboto-Bold, Roboto;font-weight:700;}
+        .cls-8{font-family:Roboto-Black, Roboto;font-weight:800;}
+        .cls-9{clip-path:url(#clippath);}
+        .cls-10{font-family:TrebuchetMS, 'Trebuchet MS';}
+        .cls-11{fill:none;}
+      </style>
+      <clipPath id="clippath">
+        <path id="mask-1" class="cls-11" d="M106.96,197.46V93.72c0-2.47,1.32-4.75,3.46-5.99l89.84-51.87c2.14-1.24,4.78-1.24,6.92,0l89.84,51.87c2.14,1.24,3.46,3.52,3.46,5.99v103.74c0,2.47-1.32,4.75-3.46,5.99l-89.84,51.87c-2.14,1.24-4.78,1.24-6.92,0l-89.84-51.87c-2.14-1.24-3.46-3.52-3.46-5.99Z"/>
+      </clipPath>
+      <clipPath id="clippath-1">
+        <path id="mask-2" class="cls-11" d="M.47,247.35v-64.81c0-2.47,1.32-4.75,3.46-5.99l56.12-32.4c2.14-1.24,4.78-1.24,6.92,0l56.12,32.4c2.14,1.24,3.46,3.52,3.46,5.99v64.81c0,2.47-1.32,4.75-3.46,5.99l-56.12,32.4c-2.14,1.24-4.78,1.24-6.92,0L3.93,253.34c-2.14-1.24-3.46-3.52-3.46-5.99Z"/>
+      </clipPath>
+    </defs>
+    <g class="cls-7">
+      <image width="695" height="711" transform="translate(0 142.15) scale(.22)" xlink:href="probleme.jpg"/>
+    </g>
+    <g class="cls-9">
+      <image width="609" height="630" transform="translate(84.09 34.87) scale(.35)" xlink:href="solution.jpg"/>
+    </g>
+    <g id="annonce">
+      <g id="fond">
+        <path class="cls-4" d="M15.47,127.2V47.01c0-2.47,1.32-4.75,3.46-5.99L88.38,.93c2.14-1.24,4.78-1.24,6.92,0l69.45,40.1c2.14,1.24,3.46,3.52,3.46,5.99V127.2c0,2.47-1.32,4.75-3.46,5.99l-69.45,40.1c-2.14,1.24-4.78,1.24-6.92,0L18.93,133.19c-2.14-1.24-3.46-3.52-3.46-5.99Z"/>
+      </g>
+      <g id="textes">
+        <text class="cls-5" transform="translate(36.94 99.11)">
+          <tspan class="cls-2">
+            <tspan x="0" y="0">Ouve</tspan>
+            <tspan class="cls-3" x="31.54" y="0">r</tspan>
+            <tspan x="36.62" y="0">ture de po</tspan>
+            <tspan class="cls-3" x="99.15" y="0">r</tspan>
+            <tspan x="104.23" y="0">te</tspan>
+          </tspan>
+          <tspan class="cls-10" x="0" y="16.8">&amp;</tspan>
+          <tspan class="cls-2" x="9.88" y="16.8" xml:space="preserve"> remplacement</tspan>
+          <tspan class="cls-2">
+            <tspan x="0" y="33.6">de serrure</tspan>
+          </tspan>
+        </text>
+        <text class="cls-6" transform="translate(36.94 70.48)">
+          <tspan x="0" y="0">EXPRESS</tspan>
+        </text>
+        <text class="cls-5" transform="translate(35.94 52.95)">
+          <tspan class="cls-1" x="0" y="0">V</tspan>
+          <tspan class="cls-2" x="8.59" y="0">otre </tspan>
+          <tspan class="cls-8" x="36.77" y="0">dépannage</tspan>
+        </text>
+      </g>
+    </g>
+  </svg>
