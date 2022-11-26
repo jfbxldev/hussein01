@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>Serrurier Flex</title>
+  
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
  
   <link href="assets/css/styles.css" rel="stylesheet">
@@ -17,7 +17,7 @@
 
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="facebook" viewBox="0 0 16 16">
-      <path fill="blue" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      <path fill="#3F51B5" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
 
     </symbol>
     <symbol id="instagram" viewBox="0 0 16 16">
@@ -29,7 +29,7 @@
   </svg>
   
   <main>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="navigation">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #3F51B5;" aria-label="navigation">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Serrurier FLEX</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar01" aria-controls="navbar01" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,61 +39,154 @@
         <div class="collapse navbar-collapse" id="navbar01">
           <ul class="navbar-nav me-auto mb-2">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
+            <!-- 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Ouverture de porte</a></li>
+                <li><a class="dropdown-item" href="#">Changement de serrure</a></li>
+                <li><a class="dropdown-item" href="#">Copie de clef express</a></li>
               </ul>
             </li>
           </ul>
-          <form role="search">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-          </form>
+          <!-- 
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Rechercher" aria-label="Search">
+            </form>
+          -->
         </div>
       </div>
     </nav>
-    <div class="hero">
+    <div class="hero pt-4">
+      <h1 class="ms-3 ms-md-5">Urgence Serrure</h1>
+      <div class="phone-button d-inline-block px-3 px-md-4 py-1 ms-3 ms-md-5 mt-4 mt-md-0">
+        <a class="phone-link" href="#">
+          <img src="assets/images/phone.svg" alt="Phone icon" class="mb-md-2"/>
+          <span class="ps-2 ps-md-4">
+            7j/7 24h/24
+          </span>
+        </a>
+      </div>
     </div>
 
     <div class="container marketing">
     
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-8">
-          <h2 class="featurette-heading fw-normal lh-1">Ne vous retrouvez pas coincé. <span class="text-muted">Sur le palier.</span></h2>
-          <p class="lead">Faites appel au serrurier Flex au 0489 12 34 56, qui peut se rendre chez vous pour une intervention sur votre porte ou votre serrure dans les 30 minutes.</p>
-        </div>
-        <div class="col-md-4">
-          <img src="./assets/images/probleme.jpg" class="img-thumbnail">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-8">
-          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-        </div>
-        <div class="col-md-4">
-          <img src="./assets/images/probleme.jpg" class="img-thumbnail">
-        </div>
-      </div>
     
-    </div>
-    <div class="plaquette-hexa">
-      <img src="./assets/images/plaquette-hexa.svg" alt="" srcset="">
+    <div class="row plaquette-hexa my-5 py-md-5">
+      <svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300.47 298.93" class="col-10 col-md-4 mx-auto">
+        <defs>
+          <style>
+            .cls-1{letter-spacing:-.02em;}
+            .cls-1,.cls-2{font-family:Roboto-Regular, Roboto;}
+            .cls-3{letter-spacing:.02em;}
+            .cls-4{fill:#3F51B5;}
+            .cls-5{fill:#fff;}.cls-5,.cls-6{font-size:14px;}
+            .cls-7{clip-path:url(#clippath-1);}
+            .cls-6{fill:#e6e6e6;font-family:Roboto-Bold, Roboto;font-weight:700;}
+            .cls-8{font-family:Roboto-Black, Roboto;font-weight:800;}
+            .cls-9{clip-path:url(#clippath);}
+            .cls-10{font-family:TrebuchetMS, 'Trebuchet MS';}
+            .cls-11{fill:none;}
+          </style>
+          <clipPath id="clippath">
+            <path id="mask-1" class="cls-11" d="M106.96,197.46V93.72c0-2.47,1.32-4.75,3.46-5.99l89.84-51.87c2.14-1.24,4.78-1.24,6.92,0l89.84,51.87c2.14,1.24,3.46,3.52,3.46,5.99v103.74c0,2.47-1.32,4.75-3.46,5.99l-89.84,51.87c-2.14,1.24-4.78,1.24-6.92,0l-89.84-51.87c-2.14-1.24-3.46-3.52-3.46-5.99Z"/>
+          </clipPath>
+          <clipPath id="clippath-1">
+            <path id="mask-2" class="cls-11" d="M.47,247.35v-64.81c0-2.47,1.32-4.75,3.46-5.99l56.12-32.4c2.14-1.24,4.78-1.24,6.92,0l56.12,32.4c2.14,1.24,3.46,3.52,3.46,5.99v64.81c0,2.47-1.32,4.75-3.46,5.99l-56.12,32.4c-2.14,1.24-4.78,1.24-6.92,0L3.93,253.34c-2.14-1.24-3.46-3.52-3.46-5.99Z"/>
+          </clipPath>
+        </defs>
+        <g class="cls-7">
+          <image width="695" height="711" transform="translate(0 142.15) scale(.22)" xlink:href="./assets/images/probleme.jpg"/>
+        </g>
+        <g class="cls-9">
+          <image width="609" height="630" transform="translate(84.09 34.87) scale(.35)" xlink:href="./assets/images/solution.jpg"/>
+        </g>
+        <g id="annonce">
+          <g id="fond">
+            <path class="cls-4" d="M15.47,127.2V47.01c0-2.47,1.32-4.75,3.46-5.99L88.38,.93c2.14-1.24,4.78-1.24,6.92,0l69.45,40.1c2.14,1.24,3.46,3.52,3.46,5.99V127.2c0,2.47-1.32,4.75-3.46,5.99l-69.45,40.1c-2.14,1.24-4.78,1.24-6.92,0L18.93,133.19c-2.14-1.24-3.46-3.52-3.46-5.99Z"/>
+          </g>
+          <g id="textes">
+            <text class="cls-5" transform="translate(35.94 52.95)">
+              <tspan class="cls-1" x="0" y="0">Votre</tspan>
+              <tspan class="cls-8" x="36.77" y="0">dépannage</tspan>
+            </text>
+            <text class="cls-6" transform="translate(36.94 70.48)">
+              <tspan x="0" y="0">EXPRESS</tspan>
+            </text>
+            <text class="cls-5" transform="translate(36.94 99.11)">
+              <tspan class="cls-2" x="0" y="0">Ouverture de porte</tspan>
+              <tspan class="cls-10" x="0" y="16.8">&amp;</tspan>
+              <tspan class="cls-2" x="9.88" y="16.8" xml:space="preserve"> remplacement</tspan>
+              <tspan class="cls-2"  x="0" y="33.6">de serrure</tspan>
+            </text>
+          </g>
+        </g>
+      </svg>
+      <div class="texte col-10 col-md-8 mx-auto ps-md-5 fs-5 text-muted">
+        <h2 class="py-3">
+          Ne vous retrouvez pas coincé sur le palier
+        </h2>
+        <div>
+          Ne vous retrouvez pas coincé sur le palier et faites appel au <strong>Serrurier Flex</strong> au <a href="#"> 0489/12.34.56</a> ,
+          qui peut se rendre chez vous, <strong>24h/24 7J/7</strong>, pour une intervention sur votre porte ou votre serrure dans les 30 minutes.
+        </div>
+        <br>
+        <div>
+          Dès réception de votre appel, <strong>Serrurier Flex</strong> , vous présente la tarification de l’intervention nécessaire.
+        </div>
+      </div>
+
+      <div class="row plaquette-tarif my-5 py-md-5 ">
+        <div class="texte col-10 col-md-6 mx-auto ps-md-5 fs-5 text-muted">
+          <h2 class="py-3">
+            Nos tarifs sont clairs
+          </h2>
+          <div>
+           
+            Nous nous engageons à vous proposer nos services aux meilleurs prix. Nos prestations sont facturées sur devis, suivant vos demandes. Nous veillons à préserver une transparence totale dans toutes les démarches et particulièrement en ce qui concerne la facturation.
+          </div>
+        </div>
+        <div class="col-10 col-md-6 mx-auto pt-4">
+          <table class="table text-muted">
+            <thead>
+              <tr>
+                <th scope="col">Prestations</th>
+                <th scope="col">08h/18h</th>
+                <th scope="col">18h/22h</th>
+                <th scope="col">22h/08h</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Porte</th>
+                <td>90€</td>
+                <td>135€</td>
+                <td>180€</td>
+              </tr>
+              <tr>
+                <th scope="row">Serrure</th>
+                <td>180€</td>
+                <td>250€</td>
+                <td>300€</td>
+              </tr>
+              <tr>
+                <th scope="row">Sécurité</th>
+                <td>250€</td>
+                <td>250€</td>
+                <td>300€</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
     </div>
   </main>
 
@@ -152,7 +245,7 @@
               <div class="mb-3">
                 <textarea class="form-control" id="messageTextArea" rows="3" placeholder="Votre message"></textarea>
               </div>
-              <button class="btn btn-primary" type="button">Envoyer</button>
+              <button class="btn btn-secondary" type="button">Envoyer</button>
             </form>
           </div>
         </div>

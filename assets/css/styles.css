@@ -9,7 +9,6 @@ main {
   background-position: center;
   height: 45vh;
 }
-
 @media screen and (min-width: 769px) {
   .hero {
     background: url("../images/landscape01-lg.jpg");
@@ -20,11 +19,46 @@ main {
   }
 }
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+.hero h1{
+  font-family: Montserrat, sans-serif;
+  font-size: clamp(25px, 7vw, 110px);
+  text-transform: uppercase;
+  color: rgb(248,249,250);
+  font-weight: 900;
 }
 
+.phone-button{
+  background: #2f9637;
+  border-radius: 30px;
+ 
+}
+.phone-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+   color: rgb(248,249,250);
+}
+.phone-link img {
+  width: auto;
+  height: 18px;
+}
+@media screen and (min-width: 769px) {
+  .phone-link {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+     color: rgb(248,249,250);
+  }
+  .phone-link img {
+    width: auto;
+    height: 32px;
+  }
+}
 
-.featurette-heading {
-  letter-spacing: -.05rem;
+.phone-button:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
